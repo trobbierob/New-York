@@ -1,5 +1,7 @@
 package com.example.android.newyork;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -32,12 +34,22 @@ public class Location1 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
+                Context context = view.getContext();
                 Location location = locations.get(position);
 
-                Toast.makeText(Location1.this, "location is: " + position, Toast.LENGTH_LONG).show();
+                Toast.makeText(Location1.this, "location is: " + position, Toast.LENGTH_SHORT).show();
 
-
-
+                if (position == 0) {
+                    Intent location1Intent = new Intent(Location1.this, LocationDetailActivity.class);
+                    location1Intent.putExtra("Name", "Tipsy Scoop");
+                    location1Intent.putExtra("Number", "(646) 812-4996");
+                    location1Intent.putExtra("AddressLineA", "229 Knickerbocker Ave.");
+                    location1Intent.putExtra("AddressLineB", "Brooklyn, NY 11199");
+                    location1Intent.putExtra("About", getString(R.string.tipsy_description));
+                    startActivity(location1Intent);
+                } else {
+                    return;
+                }
             }
         });
     }
