@@ -20,7 +20,8 @@ public class Location1 extends AppCompatActivity {
 
         // Create list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Name", "(555) 555-5555", "Address"));
+        locations.add(new Location(getString(R.string.tipsy_name), getString(R.string.tipsy_number),
+                getString(R.string.tipsy_address)));
         locations.add(new Location("Name", "(444) 444-4444", "Address"));
         locations.add(new Location("Name", "(545) 545-4444", "Address"));
 
@@ -41,10 +42,9 @@ public class Location1 extends AppCompatActivity {
 
                 if (position == 0) {
                     Intent location1Intent = new Intent(Location1.this, LocationDetailActivity.class);
-                    location1Intent.putExtra("Name", "Tipsy Scoop");
-                    location1Intent.putExtra("Number", "(646) 812-4996");
-                    location1Intent.putExtra("AddressLineA", "229 Knickerbocker Ave.");
-                    location1Intent.putExtra("AddressLineB", "Brooklyn, NY 11199");
+                    location1Intent.putExtra("Name", getString(R.string.tipsy_name));
+                    location1Intent.putExtra("Number", getString(R.string.tipsy_number));
+                    location1Intent.putExtra("Address", getString(R.string.tipsy_address));
                     location1Intent.putExtra("About", getString(R.string.tipsy_description));
                     startActivity(location1Intent);
                 } else {

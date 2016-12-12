@@ -42,15 +42,10 @@
         android:paddingRight="16dp">
 
         <TextView
-            android:id="@+id/company_address_1_text_view"
+            android:id="@+id/company_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="First Line Address"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Second Line Address"/>
 
     </LinearLayout>
 

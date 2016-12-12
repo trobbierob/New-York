@@ -39,7 +39,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         companyNumber.setText(currentLocation.getCompanyNumber());
 
-        TextView companyAddress = (TextView) listItemView.findViewById(R.id.company_address_1_text_view);
+        TextView companyAddress = (TextView) listItemView.findViewById(R.id.company_address);
 
         companyAddress.setText(currentLocation.getCompanyAddress());
 
