@@ -15,10 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".LocationDetailActivity"
             android:parentActivityName=".Location1"></activity>
         <activity android:name=".Location1"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Location2"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Location3"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Location4"
             android:parentActivityName=".MainActivity"></activity>
     </application>
 

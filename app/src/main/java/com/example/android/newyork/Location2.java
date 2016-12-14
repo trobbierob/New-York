@@ -11,7 +11,11 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class Location1 extends AppCompatActivity {
+/**
+ * Created by Sogekingu on 12/14/16.
+ */
+
+public class Location2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +26,12 @@ public class Location1 extends AppCompatActivity {
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getString(R.string.tipsy_name), getString(R.string.tipsy_number),
                 getString(R.string.tipsy_address)));
-        locations.add(new Location("Name", "(444) 444-4444", "Address"));
-        locations.add(new Location("Name", "(545) 545-4444", "Address"));
-        locations.add(new Location("Name", "(444) 444-4444", "Address"));
-        locations.add(new Location("Name", "(545) 545-4444", "Address"));
-        locations.add(new Location("Name", "(444) 444-4444", "Address"));
-        locations.add(new Location("Name", "(545) 545-4444", "Address"));
+        locations.add(new Location("Name", "(222) 444-4444", "Address"));
+        locations.add(new Location("Name", "(222) 545-4444", "Address"));
+        locations.add(new Location("Name", "(222) 444-4444", "Address"));
+        locations.add(new Location("Name", "(222) 545-4444", "Address"));
+        locations.add(new Location("Name", "(222) 444-4444", "Address"));
+        locations.add(new Location("Name", "(222) 545-4444", "Address"));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 
@@ -42,13 +46,13 @@ public class Location1 extends AppCompatActivity {
                 Context context = view.getContext();
                 Location location = locations.get(position);
 
-                Toast.makeText(Location1.this, "location is: " + position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(Location2.this, "location is: " + position, Toast.LENGTH_SHORT).show();
 
                 int companyBackground;
 
                 switch (position) {
                     case 0:
-                        Intent location1Intent = new Intent(Location1.this, LocationDetailActivity.class);
+                        Intent location1Intent = new Intent(Location2.this, LocationDetailActivity.class);
                         location1Intent.putExtra("Name", getString(R.string.tipsy_name));
                         location1Intent.putExtra("Number", getString(R.string.tipsy_number));
                         location1Intent.putExtra("Address", getString(R.string.tipsy_address));
@@ -58,7 +62,7 @@ public class Location1 extends AppCompatActivity {
                         startActivity(location1Intent);
                         break;
                     case 1:
-                        Intent location2Intent = new Intent(Location1.this, LocationDetailActivity.class);
+                        Intent location2Intent = new Intent(Location2.this, LocationDetailActivity.class);
                         location2Intent.putExtra("Name", getString(R.string.tipsy_name));
                         location2Intent.putExtra("Number", getString(R.string.tipsy_number));
                         location2Intent.putExtra("Address", getString(R.string.tipsy_address));
