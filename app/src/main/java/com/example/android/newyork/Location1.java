@@ -40,15 +40,33 @@ public class Location1 extends AppCompatActivity {
 
                 Toast.makeText(Location1.this, "location is: " + position, Toast.LENGTH_SHORT).show();
 
-                if (position == 0) {
-                    Intent location1Intent = new Intent(Location1.this, LocationDetailActivity.class);
-                    location1Intent.putExtra("Name", getString(R.string.tipsy_name));
-                    location1Intent.putExtra("Number", getString(R.string.tipsy_number));
-                    location1Intent.putExtra("Address", getString(R.string.tipsy_address));
-                    location1Intent.putExtra("About", getString(R.string.tipsy_description));
-                    startActivity(location1Intent);
-                } else {
-                    return;
+                int companyBackground;
+
+                switch (position) {
+                    case 0:
+                        Intent location1Intent = new Intent(Location1.this, LocationDetailActivity.class);
+                        location1Intent.putExtra("Name", getString(R.string.tipsy_name));
+                        location1Intent.putExtra("Number", getString(R.string.tipsy_number));
+                        location1Intent.putExtra("Address", getString(R.string.tipsy_address));
+                        location1Intent.putExtra("About", getString(R.string.tipsy_description));
+
+                        companyBackground = R.drawable.notfound;
+                        location1Intent.putExtra("Background", companyBackground);
+                        startActivity(location1Intent);
+                        break;
+                    case 1:
+                        Intent location2Intent = new Intent(Location1.this, LocationDetailActivity.class);
+                        location2Intent.putExtra("Name", getString(R.string.tipsy_name));
+                        location2Intent.putExtra("Number", getString(R.string.tipsy_number));
+                        location2Intent.putExtra("Address", getString(R.string.tipsy_address));
+                        location2Intent.putExtra("About", getString(R.string.tipsy_description));
+
+                        companyBackground = R.drawable.found;
+                        location2Intent.putExtra("Background", companyBackground);
+                        startActivity(location2Intent);
+                        break;
+                    default:
+                        break;
                 }
             }
         });
