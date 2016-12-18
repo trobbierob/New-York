@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         cardView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent cardViewIntent = new Intent(MainActivity.this, Location1.class);
+                Intent cardViewIntent = new Intent(MainActivity.this, Dessert.class);
                 startActivity(cardViewIntent);
             }
         });

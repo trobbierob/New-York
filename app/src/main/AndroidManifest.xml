@@ -16,8 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".LocationDetailActivity"
-            android:parentActivityName=".Location1"></activity>
-        <activity android:name=".Location1"
+            android:parentActivityName=".Dessert"></activity>
+        <activity android:name=".Dessert"
             android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".Location2"
             android:parentActivityName=".MainActivity"></activity>

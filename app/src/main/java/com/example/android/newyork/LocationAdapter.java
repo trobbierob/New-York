@@ -28,7 +28,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
                     R.layout.list_item, parent, false);
         }
 
-
         Location currentLocation = getItem(position);
 
         TextView companyName = (TextView) listItemView.findViewById(R.id.company_name_text_view);
@@ -45,5 +44,4 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         return listItemView;
     }
-
 }
