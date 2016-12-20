@@ -28,7 +28,7 @@ public class LocationDetailActivity extends AppCompatActivity{
 
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle(extras.getString("Name"));
+        collapsingToolbar.setTitle(extras.getString("Title"));
 
         TextView detailName = (TextView) findViewById(R.id.detail_name);
         detailName.setText(extras.getString("Name"));

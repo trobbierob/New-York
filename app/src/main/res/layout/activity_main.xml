@@ -50,7 +50,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/dessert_card"/>
+                        android:src="@drawable/main_dessert"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -78,6 +78,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/main_museum"/>
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -104,6 +109,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/main_pizza"/>
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -129,6 +139,11 @@
                     style="@style/Widget.CardContent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/main_coding"/>
 
                     <TextView
                         android:layout_width="match_parent"
