@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class Dessert extends AppCompatActivity {
+public class DessertActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,13 +46,13 @@ public class Dessert extends AppCompatActivity {
                 Context context = view.getContext();
                 Location location = locations.get(position);
 
-                Toast.makeText(Dessert.this, "location is: " + position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(DessertActivity.this, "location is: " + position, Toast.LENGTH_SHORT).show();
 
                 int companyBackground;
 
                 switch (position) {
                     case 0:
-                        Intent tipsyIntent = new Intent(Dessert.this, LocationDetailActivity.class);
+                        Intent tipsyIntent = new Intent(DessertActivity.this, LocationDetailActivity.class);
                         tipsyIntent.putExtra("Name", getString(R.string.tipsy_name));
                         tipsyIntent.putExtra("Number", getString(R.string.tipsy_number));
                         tipsyIntent.putExtra("Address", getString(R.string.tipsy_address));
@@ -62,7 +62,7 @@ public class Dessert extends AppCompatActivity {
                         startActivity(tipsyIntent);
                         break;
                     case 1:
-                        Intent dominiqueAnselIntent = new Intent(Dessert.this, LocationDetailActivity.class);
+                        Intent dominiqueAnselIntent = new Intent(DessertActivity.this, LocationDetailActivity.class);
                         dominiqueAnselIntent.putExtra("Name", getString(R.string.dominique_ansel_name));
                         dominiqueAnselIntent.putExtra("Number", getString(R.string.dominique_ansel_number));
                         dominiqueAnselIntent.putExtra("Address", getString(R.string.dominique_ansel_address));
@@ -72,7 +72,7 @@ public class Dessert extends AppCompatActivity {
                         startActivity(dominiqueAnselIntent);
                         break;
                     case 2:
-                        Intent spotDessertIntent = new Intent(Dessert.this, LocationDetailActivity.class);
+                        Intent spotDessertIntent = new Intent(DessertActivity.this, LocationDetailActivity.class);
                         spotDessertIntent.putExtra("Name", getString(R.string.spot_dessert_name));
                         spotDessertIntent.putExtra("Number", getString(R.string.spot_dessert_number));
                         spotDessertIntent.putExtra("Address", getString(R.string.spot_dessert_address));
@@ -82,7 +82,7 @@ public class Dessert extends AppCompatActivity {
                         startActivity(spotDessertIntent);
                         break;
                     case 3:
-                        Intent levainBakeryIntent = new Intent(Dessert.this, LocationDetailActivity.class);
+                        Intent levainBakeryIntent = new Intent(DessertActivity.this, LocationDetailActivity.class);
                         levainBakeryIntent.putExtra("Name", getString(R.string.levain_bakery_name));
                         levainBakeryIntent.putExtra("Number", getString(R.string.levain_bakery_number));
                         levainBakeryIntent.putExtra("Address", getString(R.string.levain_bakery_address));
@@ -92,7 +92,7 @@ public class Dessert extends AppCompatActivity {
                         startActivity(levainBakeryIntent);
                         break;
                     case 4:
-                        Intent milkBarIntent = new Intent(Dessert.this, LocationDetailActivity.class);
+                        Intent milkBarIntent = new Intent(DessertActivity.this, LocationDetailActivity.class);
                         milkBarIntent.putExtra("Name", getString(R.string.milk_bar_name));
                         milkBarIntent.putExtra("Number", getString(R.string.milk_bar_number));
                         milkBarIntent.putExtra("Address", getString(R.string.milk_bar_address));
@@ -102,7 +102,7 @@ public class Dessert extends AppCompatActivity {
                         startActivity(milkBarIntent);
                         break;
                     case 5:
-                        Intent schmackaryIntent = new Intent(Dessert.this, LocationDetailActivity.class);
+                        Intent schmackaryIntent = new Intent(DessertActivity.this, LocationDetailActivity.class);
                         schmackaryIntent.putExtra("Name", getString(R.string.schmackary_name));
                         schmackaryIntent.putExtra("Number", getString(R.string.schmackary_number));
                         schmackaryIntent.putExtra("Address", getString(R.string.schmackary_address));

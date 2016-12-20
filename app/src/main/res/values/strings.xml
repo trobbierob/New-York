@@ -30,4 +30,89 @@
     <string name="schmackary_address">362 West 45th Street\nNew York, NY 10036</string>
     <string name="schmackary_description">Zachary “Schmackary” Schmahl is a born cookie monster. After trying every cookie he could find from the heartland to the big apple, Zach wanted to create something different. Why stop at Chocolate Chip? He saw so many more flavor opportunities for cookies and yet no one was doing it. With that thought in mind, Schmackary’s was born. First, out of his 400 square foot apartment and then just one year later to his first brick and mortar home at 45th street &amp; 9th avenue in the heart of NYC’s theatre district.</string>
 
+
+
+
+    <string name="mosex_name">Museum of Sex</string>
+    <string name="mosex_number">(212) 689-6337</string>
+    <string name="mosex_website">museumofsex.com</string>
+    <string name="mosex_address">233 5th Ave\nNew York, NY 10016</string>
+    <string name="mosex_description">Since its inception, the Museum of Sex has generated over 25 exhibitions and 6 virtual installations, each in keeping with the Museum’s mission of advocating open discourse surrounding sex and sexuality as well as striving to present to the public the best in current scholarship unhindered by self-censorship. With each new exhibition, lecture series, event and publication, the Museum of Sex is committed to addressing a wide range of topics, while simultaneously highlighting material and artifacts from different continents, cultures, time periods and media.\n\nMost recently, the Museum of Sex expanded, creating a brand-new Fifth avenue storefront, and added an additional floor and gallery to the exhibition spaces, and opened a cafe and cocktail lounge that explores the relationship between sex, sensuality and food and drink. With twice the square footage of the previous store, the new Museum of Sex store is a destination in and of itself featuring everything from one-of-a-kind signature products to those exclusively distributed through the Museum of Sex to the popular best sellers that patrons have come to know and love. With spotlights on local artists as well as high end products from around the world, the store at the Museum of Sex is at the pulse of the modern consumer world.</string>
+
+    <string name="asm_name">Asia Society and Museum</string>
+    <string name="asm_number">(212) 288-6400</string>
+    <string name="asm_address">725 Park Ave\nNew York, NY 10021</string>
+    <string name="asm_description">Asia Society is the leading educational organization dedicated to promoting mutual understanding and strengthening partnerships among peoples, leaders and institutions of Asia and the United States in a global context. Across the fields of arts, business, culture, education, and policy, the Society provides insight, generates ideas, and promotes collaboration to address present challenges and create a shared future.\n\nFounded in 1956, Asia Society is a nonpartisan, nonprofit educational institution with offices in Hong Kong, Houston, Los Angeles, Manila, Mumbai, New York, San Francisco, Seoul, Shanghai, Sydney, Washington, DC and Zurich.</string>
+
+    <string name="guggenheim_name">Solomon R. Guggenheim Museum</string>
+    <string name="guggenheim_number">(212) 423-3500</string>
+    <string name="guggenheim_address">1071 5th Ave\nNew York, NY 10128</string>
+    <string name="guggenheim_description">Committed to innovation, the Solomon R. Guggenheim Foundation collects, preserves, and interprets modern and contemporary art, and explores ideas across cultures through dynamic curatorial and educational initiatives and collaborations. With its constellation of architecturally and culturally distinct museums, exhibitions, publications, and digital platforms, the foundation engages both local and global audiences.</string>
+
+    <string name="amnh_name">American Museum of Natural History</string>
+    <string name="amnh_number">(212) 769-5100</string>
+    <string name="amnh_address">Central Park West &amp; 79th St\nNew York, NY 10024</string>
+    <string name="amnh_description">The American Museum of Natural History is one of the world\’s preeminent scientific and cultural institutions. Since its founding in 1869, the Museum has advanced its global mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.\n\nThe Museum is renowned for its exhibitions and scientific collections, which serve as a field guide to the entire planet and present a panorama of the world\'s cultures.</string>
+
+    <string name="moma_name">The Museum of Modern Art</string>
+    <string name="moma_number">(212) 708-9400</string>
+    <string name="moma_address">11 W 53rd St\nNew York, NY 10019</string>
+    <string name="moma_description">Founded in 1929 as an educational institution, The Museum of Modern Art is dedicated to being the foremost museum of modern art in the world.\n\nThrough the leadership of its Trustees and staff, The Museum of Modern Art manifests this commitment by establishing, preserving, and documenting a permanent collection of the highest order that reflects the vitality, complexity and unfolding patterns of modern and contemporary art; by presenting exhibitions and educational programs of unparalleled significance; by sustaining a library, archives, and conservation laboratory that are recognized as international centers of research; and by supporting scholarship and publications of preeminent intellectual merit.\n\nCentral to The Museum of Modern Art\'s mission is the encouragement of an ever-deeper understanding and enjoyment of modern and contemporary art by the diverse local, national, and international audiences that it serves.</string>
+
+
+
+
+    <string name="pizzarte_name">PizzArte</string>
+    <string name="pizzarte_number">(212) 247-3936</string>
+    <string name="pizzarte_address">362 West 45th Street\nNew York, NY 10036</string>
+    <string name="pizzarte_description">PizzArte captures the spirit of Naples with a restaurant that is truly Neapolitan in spirit—from the ingredients to the traditional preparations, to the presentation and the service, from the flavors to the feeling of the dining room—it is all Neapolitan. Everyone from the waitstaff to the general manager to the pizzaiolo and the executive chef is from Naples.\n\nIn addition to the highest quality cuisine, the restaurant also features a changing gallery of contemporary art, giving guests the opportunity to re-engage with painting in a comfortable and relaxed setting.</string>
+
+    <string name="rockys_pizzeria_name">Rocky\'s Pizzeria</string>
+    <string name="rockys_pizzeria_number">(212) 889-1340</string>
+    <string name="rockys_pizzeria_address">607 2nd Ave\nNew York, NY 10016</string>
+    <string name="rockys_pizzeria_description">We believe pizza is more than food — it\'s a slice of life. Across the country, pizza is made by people who care about craft, history, and culture, and we created Slice to connect those proud makers with customers who are just as passionate about their pizza. When you order pizza from a place in your neighborhood, you support a local business. So whether you call it a pizza parlor, slice joint, or pizzeria, we\'re here to help you order authentic local pizza and live your best slice life.</string>
+
+    <string name="capizzi_name">Capizzi</string>
+    <string name="capizzi_number">(212) 695-6900</string>
+    <string name="capizzi_address">547 9th Ave\nNew York, NY 10018</string>
+    <string name="capizzi_description">Everything we serve here at Capizzi is made as if you were going to my Grandmother\’s house for a holiday. Back then, it was like a friendly family competition of who had the best food. (Although the homemade wine competitions were not so friendly.) Everything had to be the best, and I mean everything! One bakery might have the best bread, but not the best cake. One pork store might have the best sausage, but the chicken market had the best chicken, and so on. My parents and grandparents shopped for days all over Brooklyn.\n\nAs a small child, I didn\’t understand it. Who cares has the best? Why not just go to the supermarket, and get everything? (“God forbid,” Nonna would say.) But as I got older, I realized it\’s not just about good food. It was like a sport, a passion, and a love affair with food and nature, all rolled up into one.\n\nAs a small child, I worked by my father\’s and grandfather\’s side in their pizza shops and gardens, and I too have developed the passion and love for the art of food. There is a great deal of pleasure that come with serving something really special. At Capizzi we shop the world to bring you the best, regardless of price. I invite you to step out of Hell\’s Kitchen, and go back in time to my Nonna’s kitchen, where things are made with a sense of love and pride.\n\nAs for our name, Capizzi is a small town in Sicily, Province of Messina, the birthplace of my mother and grandparents. The tradition of excellence is carried on here at Capizzi, in their memory.</string>
+
+    <string name="famous_ben_name">Famous Ben\'s Pizza</string>
+    <string name="famous_ben_number">(212) 966-4494</string>
+    <string name="famous_ben_address">177 Spring St\nNew York, NY 10012</string>
+    <string name="famous_ben_description">We offer healthy fresh Italian cuisine. Our menu consists of specialty pizza, pasta, soups, salads, sandwiches and calzones. We also have a full line of catering products for your next event or function. Check out our new inter-active web site - try it once &amp; you\'ll be hooked!</string>
+
+    <string name="joes_pizza_name">Joe\'s Pizza</string>
+    <string name="joes_pizza_number">(212) 366-1182</string>
+    <string name="joes_pizza_address">7 Carmine St\nNew York, NY 10014</string>
+    <string name="joes_pizza_description">Pino "Joe" Pozzuoli immigrated to the U.S. from Naples, Italy in the mid 1950\'s. He took the name Joe, as Pino is an Italian form of the name Joseph.  He began working in pizza shops all over the Northeast and by the 1960\'s he was personally training some of the best pizza men in the area.\n\nIn the early 1970s, he relocated and opened Joe\'s Pizza at the intersection of Bleecker and Carmine streets in Greenwich Village.  He liked the idea of operating a store in a unique neighborhood like Greenwich Village with a unique and diverse population. There is truly no \'average\' customer at Joes as you can find people from all walks of life coming in for a slice.</string>
+
+
+
+    <string name="nycda_name">New York Code + Design Academy</string>
+    <string name="nycda_number">(844) 322-2633</string>
+    <string name="nycda_address">90 John St #404\n\nNew York, NY 10038</string>
+    <string name="nycda_description">It all starts here. A new career. A new life. A new set of skills that changes everything.\n\nWe combine classroom instruction from experienced software developers and UX designers with a responsive and supportive community to take your ideas from theory to reality.\n\nIf you want to do more than learn to code—if you want to truly become a code and design professional—you need more than just a book. You need the advice and support of people who are currently working in the field. That\’s what we’re here for. Let’s get to work.</string>
+
+    <string name="flatiron_name">Flatiron School</string>
+    <string name="flatiron_number">(888) 958-0569</string>
+    <string name="flatiron_address">11 Broadway #260\nNew York, NY 10004</string>
+    <string name="flatiron_description">In 2012, Adam and Avi discovered that while their backgrounds were different, their goal was the same: A new model for higher education that is accessible and actually delivers fulfilling careers. Working as a venture capitalist, Adam was discouraged by the Ed Tech landscape. Then he met Avi – a self-taught technologist turned educator. Through small coding workshops, Avi was actually teaching people to code and find jobs on his own. Together, they decided to found a school that could impact more people’s lives and careers through code.\n\nThe Internet’s potential to usher in a revolution for education has not yet been achieved. Our programs take what has always worked – community and peer learning – and combine it with modern software tools and real-time online instructional support. We think we’ve barely scratched the surface of how the internet can change the way people learn.</string>
+
+    <string name="vwc_name">Vets Who Code</string>
+    <string name="vwc_number">(917) 960-3756</string>
+    <string name="vwc_address">#29688, 228 Park Ave S\nNew York, NY 10003</string>
+    <string name="vwc_description">Launched in 2014, Vets Who Code is a non-profit dedicated to filling the wide chasm between technical expertise needed and available to America’s best. Our vision is to close the digital talent gap and ease career transition for military veterans, through software development training. We believe that those who serve in uniform can be the digital economy’s most productive and innovative assets. Vets Who Code prepares them to enter society with new skills for exciting careers.\n\nVets Who Code is a reintegration solution for veterans that believes in the principle of "To Teach a Man To Fish" to revitalize early stage transitioning veterans. Many veterans are not homeless, but are un- and under-employed. Some have a deep desire to be independent business owners. Their skill sets are desperately needed to enhance local economies and to drive innovation. Vets Who Code is a conversion point and launch pad for these veterans.</string>
+
+    <string name="ga_name">General Assembly</string>
+    <string name="ga_number">(917) 722-0237</string>
+    <string name="ga_address">10 E 21st St\nNew York, NY 10010</string>
+    <string name="ga_description">General Assembly is a pioneer in education and career transformation, specializing in today\’s most in-demand skills. The leading source for training, staffing, and career transitions, we foster a flourishing community of professionals pursuing careers they love.\n\nWhat began as a co-working space in 2011 has since grown into a global learning experience with campuses in 20 cities and over 35,000 graduates worldwide.\n\nAs individuals and companies struggle to compete in an increasingly technological economy, General Assembly provides award-winning, dynamic training to close the global skills gap.</string>
+
+    <string name="codecademy_name">Codecademy</string>
+    <string name="codecademy_number">(000) 000-0000</string>
+    <string name="codecademy_address">49 W 27th St\nNew York, NY 10001</string>
+    <string name="codecademy_description">Codecademy is an education company. But not one in the way you might think. We\'re committed to building the best learning experience inside and out, making Codecademy the best place for our team to learn, teach, and create the online learning experience of the future.\n\nEducation is old. The current public school system in the US dates back to the 19th century and wasn\'t designed to scale the way it has. Lots of companies are working to "disrupt" education by changing the way things work in the classroom and by bringing the classroom online.</string>
+
+
 </resources>
