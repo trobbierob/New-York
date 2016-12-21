@@ -15,7 +15,7 @@
     <string name="levain_bakery_name">Levain Bakery</string>
     <string name="levain_bakery_title_name">Levain Bakery</string>
     <string name="levain_bakery_number">(646) 455-0952</string>
-    <string name="levain_bakery_address">2167 Fred Douglass Blvd.\nNew York, NY 10026</string>
+    <string name="levain_bakery_address">2167 Fred Doug. Blvd.\nNew York, NY 10026</string>
     <string name="levain_bakery_description">Nestled in New York City’s Upper West Side, Levain headquarters is a cozy neighborhood bakery where locals are greeted by name. A steady stream of loyal regulars stand side by side with tourists, eager to sample the legendary baked goods.\n\nFrom an inventive array of rustic breads to the world-famous six-ounce chocolate chip walnut cookie, everything is baked on-site, fresh every day from the finest natural ingredients. What doesn’t sell that day goes to help feed the hungry—a mission that has been solidly in place since the beginning.\n\nThe bakery was founded in 1994 by friends Connie McDonald and Pam Weekes. At the time, Connie was in banking and Pam in Fashion. The two, both competitive swimmers, trained together for the Ironman and—not surprisingly, as their tireless workouts left them feeling starved for great food— they began a passionate dialog about creating the world’s greatest chocolate chip cookie.\n\nWithin just a few years, Levain Bakery had become a neighborhood institution and a destination for epicurious travelers from around the world. Demand continued to grow. In 2000, to satisfy their regular clientele summering in the Hamptons, the two opened a second bakery in the village of Wainscott on Long Island’s East End. And today, through their website, they now ship their world-famous cookies to happy fans around the globe.</string>
 
     <string name="dominique_ansel_name">Dominique Ansel</string>
@@ -100,7 +100,7 @@
     <string name="nycda_name">New York Code + Design Academy</string>
     <string name="nycda_title_name">NYCDA</string>
     <string name="nycda_number">(844) 322-2633</string>
-    <string name="nycda_address">90 John St #404\n\nNew York, NY 10038</string>
+    <string name="nycda_address">90 John St #404\nNew York, NY 10038</string>
     <string name="nycda_description">It all starts here. A new career. A new life. A new set of skills that changes everything.\n\nWe combine classroom instruction from experienced software developers and UX designers with a responsive and supportive community to take your ideas from theory to reality.\n\nIf you want to do more than learn to code—if you want to truly become a code and design professional—you need more than just a book. You need the advice and support of people who are currently working in the field. That\’s what we’re here for. Let’s get to work.</string>
 
     <string name="flatiron_name">Flatiron School</string>

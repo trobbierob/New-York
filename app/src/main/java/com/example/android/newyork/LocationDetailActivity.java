@@ -1,9 +1,12 @@
 package com.example.android.newyork;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -33,11 +36,38 @@ public class LocationDetailActivity extends AppCompatActivity{
         TextView detailName = (TextView) findViewById(R.id.detail_name);
         detailName.setText(extras.getString("Name"));
 
-        TextView detailNumber = (TextView) findViewById(R.id.detail_number);
+        /*
+        This will allow the user to call the location from within the detail
+         */
+        final TextView detailNumber = (TextView) findViewById(R.id.detail_number);
         detailNumber.setText(extras.getString("Number"));
+        final String companyNumber  = extras.getString("Number");
+        detailNumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+                phoneIntent.setData(Uri.parse("tel:" + companyNumber));
 
-        TextView detailAddressLineA = (TextView) findViewById(R.id.detail_address);
-        detailAddressLineA.setText(extras.getString("Address"));
+                if (phoneIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(phoneIntent);
+                }
+            }
+        });
+
+        /*
+        This will allow the user to find the location on a map within the detail
+         */
+        TextView detailAddress = (TextView) findViewById(R.id.detail_address);
+        detailAddress.setText(extras.getString("Address"));
+        final String address  = extras.getString("Address");
+        detailAddress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String mapLocation = "http://maps.google.co.in/maps?q=" + address;
+                Intent addressIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(mapLocation));
+                startActivity(addressIntent);
+            }
+        });
 
         TextView detailAbout = (TextView) findViewById(R.id.detail_about);
         detailAbout.setText(extras.getString("About"));
