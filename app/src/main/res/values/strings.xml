@@ -58,7 +58,7 @@
     <string name="amnh_name">American Museum of Natural History</string>
     <string name="amnh_title_name">AMNH</string>
     <string name="amnh_number">(212) 769-5100</string>
-    <string name="amnh_address">Central Park West &amp; 79th St\nNew York, NY 10024</string>
+    <string name="amnh_address">Central Park &amp; 79th St\nNew York, NY 10024</string>
     <string name="amnh_description">The American Museum of Natural History is one of the world\’s preeminent scientific and cultural institutions. Since its founding in 1869, the Museum has advanced its global mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.\n\nThe Museum is renowned for its exhibitions and scientific collections, which serve as a field guide to the entire planet and present a panorama of the world\'s cultures.</string>
 
     <string name="moma_name">The Museum of Modern Art</string>
@@ -112,7 +112,7 @@
     <string name="vwc_name">Vets Who Code</string>
     <string name="vwc_title_name">Vets Who Code</string>
     <string name="vwc_number">(917) 960-3756</string>
-    <string name="vwc_address">#29688, 228 Park Ave S\nNew York, NY 10003</string>
+    <string name="vwc_address">228 Park Ave S\nNew York, NY 10003</string>
     <string name="vwc_description">Launched in 2014, Vets Who Code is a non-profit dedicated to filling the wide chasm between technical expertise needed and available to America’s best. Our vision is to close the digital talent gap and ease career transition for military veterans, through software development training. We believe that those who serve in uniform can be the digital economy’s most productive and innovative assets. Vets Who Code prepares them to enter society with new skills for exciting careers.\n\nVets Who Code is a reintegration solution for veterans that believes in the principle of "To Teach a Man To Fish" to revitalize early stage transitioning veterans. Many veterans are not homeless, but are un- and under-employed. Some have a deep desire to be independent business owners. Their skill sets are desperately needed to enhance local economies and to drive innovation. Vets Who Code is a conversion point and launch pad for these veterans.</string>
 
     <string name="ga_name">General Assembly</string>

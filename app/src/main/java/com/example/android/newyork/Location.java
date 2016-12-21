@@ -10,6 +10,7 @@ public class Location {
     private String mCompanyNumber;
     private String mCompanyAddress;
 
+
     public Location(String companyName, String companyNumber,
                     String companyAddress) {
         mCompanyName = companyName;
