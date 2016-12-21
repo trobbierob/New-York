@@ -29,15 +29,15 @@ public class CodingActivity extends AppCompatActivity {
         // Create list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getString(R.string.nycda_title_name), getString(R.string.nycda_number),
-                getString(R.string.nycda_address)));
+                getString(R.string.nycda_address), R.drawable.c_codedesignacademy));
         locations.add(new Location(getString(R.string.flatiron_title_name), getString(R.string.flatiron_number),
-                getString(R.string.flatiron_address)));
+                getString(R.string.flatiron_address), R.drawable.c_flatiron));
         locations.add(new Location(getString(R.string.vwc_title_name), getString(R.string.vwc_number),
-                getString(R.string.vwc_address)));
+                getString(R.string.vwc_address), R.drawable.c_vetswhocode));
         locations.add(new Location(getString(R.string.ga_title_name), getString(R.string.ga_number),
-                getString(R.string.ga_address)));
+                getString(R.string.ga_address), R.drawable.c_generalassembly));
         locations.add(new Location(getString(R.string.codecademy_title_name), getString(R.string.codecademy_number),
-                getString(R.string.codecademy_address)));
+                getString(R.string.codecademy_address), R.drawable.c_codecademy));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 
@@ -61,7 +61,7 @@ public class CodingActivity extends AppCompatActivity {
                         nycdaIntent.putExtra("Number", getString(R.string.nycda_number));
                         nycdaIntent.putExtra("Address", getString(R.string.nycda_address));
                         nycdaIntent.putExtra("About", getString(R.string.nycda_description));
-                        companyBackground = R.drawable.c_codecademy;
+                        companyBackground = R.drawable.c_codedesignacademy;
                         nycdaIntent.putExtra("Background", companyBackground);
                         startActivity(nycdaIntent);
                         break;

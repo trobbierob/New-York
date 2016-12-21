@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -41,6 +42,14 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         TextView companyAddress = (TextView) listItemView.findViewById(R.id.company_address);
 
         companyAddress.setText(currentLocation.getCompanyAddress());
+
+
+
+        ImageView locationImageView = (ImageView) listItemView.findViewById(R.id.company_image_view);
+
+        locationImageView.setImageResource(currentLocation.getImageResourceId());
+
+        locationImageView.setVisibility(View.VISIBLE);
 
         return listItemView;
     }

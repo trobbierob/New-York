@@ -25,17 +25,17 @@ public class DessertActivity extends AppCompatActivity {
         // Create list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getString(R.string.tipsy_title_name), getString(R.string.tipsy_number),
-                getString(R.string.tipsy_address)));
+                getString(R.string.tipsy_address), R.drawable.d_tipsy_scoop));
         locations.add(new Location(getString(R.string.dominique_ansel_title_name), getString(R.string.dominique_ansel_number),
-                getString(R.string.dominique_ansel_address)));
+                getString(R.string.dominique_ansel_address), R.drawable.d_dominique_ansel));
         locations.add(new Location(getString(R.string.spot_dessert_title_name), getString(R.string.spot_dessert_number),
-                getString(R.string.spot_dessert_address)));
+                getString(R.string.spot_dessert_address), R.drawable.d_spot_dessert_bar));
         locations.add(new Location(getString(R.string.levain_bakery_title_name), getString(R.string.levain_bakery_number),
-                getString(R.string.levain_bakery_address)));
+                getString(R.string.levain_bakery_address), R.drawable.d_levain_bakery));
         locations.add(new Location(getString(R.string.milk_bar_title_name), getString(R.string.milk_bar_number),
-                getString(R.string.milk_bar_address)));
+                getString(R.string.milk_bar_address), R.drawable.d_momofuku));
         locations.add(new Location(getString(R.string.schmackary_title_name), getString(R.string.schmackary_number),
-                getString(R.string.schmackary_address)));
+                getString(R.string.schmackary_address), R.drawable.d_schmackarys));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 

@@ -30,15 +30,15 @@ public class MuseumActivity extends AppCompatActivity {
         // Create list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getString(R.string.moma_title_name), getString(R.string.moma_number),
-                getString(R.string.moma_address)));
+                getString(R.string.moma_address), R.drawable.m_moma));
         locations.add(new Location(getString(R.string.amnh_title_name), getString(R.string.amnh_number),
-                getString(R.string.amnh_address)));
+                getString(R.string.amnh_address), R.drawable.m_amnh));
         locations.add(new Location(getString(R.string.guggenheim_title_name), getString(R.string.guggenheim_number),
-                getString(R.string.guggenheim_address)));
+                getString(R.string.guggenheim_address), R.drawable.m_guggenheim));
         locations.add(new Location(getString(R.string.asm_title_name), getString(R.string.asm_number),
-                getString(R.string.asm_address)));
+                getString(R.string.asm_address), R.drawable.m_asiasociety));
         locations.add(new Location(getString(R.string.mosex_title_name), getString(R.string.mosex_number),
-                getString(R.string.mosex_address)));
+                getString(R.string.mosex_address), R.drawable.m_mosex));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 

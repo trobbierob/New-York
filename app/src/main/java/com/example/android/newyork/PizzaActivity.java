@@ -30,15 +30,15 @@ public class PizzaActivity extends AppCompatActivity {
         // Create list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getString(R.string.pizzarte_title_name), getString(R.string.pizzarte_number),
-                getString(R.string.pizzarte_address)));
+                getString(R.string.pizzarte_address), R.drawable.p_pizzarte));
         locations.add(new Location(getString(R.string.rockys_pizzeria_title_name), getString(R.string.rockys_pizzeria_number),
-                getString(R.string.rockys_pizzeria_address)));
+                getString(R.string.rockys_pizzeria_address), R.drawable.p_rockyspizzeria));
         locations.add(new Location(getString(R.string.capizzi_title_name), getString(R.string.capizzi_number),
-                getString(R.string.capizzi_address)));
+                getString(R.string.capizzi_address), R.drawable.p_capizzi));
         locations.add(new Location(getString(R.string.famous_ben_title_name), getString(R.string.famous_ben_number),
-                getString(R.string.famous_ben_address)));
+                getString(R.string.famous_ben_address), R.drawable.p_pizza));
         locations.add(new Location(getString(R.string.joes_pizza_title_name), getString(R.string.joes_pizza_number),
-                getString(R.string.joes_pizza_address)));
+                getString(R.string.joes_pizza_address), R.drawable.p_joespizza));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 
