@@ -37,8 +37,4 @@ public class Location {
     public int getImageResourceId(){
         return mImageResourceId;
     }
-
-    public boolean hasImage(){
-        return mImageResourceId != NO_IMAGE_PROVIDED;
-    }
 }

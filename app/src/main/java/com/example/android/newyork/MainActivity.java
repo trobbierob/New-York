@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Random rand = new Random();
-        int num = rand.nextInt(4);
+        int num = rand.nextInt(7);
 
         switch (num) {
             case 0:

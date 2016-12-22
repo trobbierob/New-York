@@ -95,10 +95,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/detail_number"
+                        android:textColor="@color/colorLink"
                         tools:text="Number" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/colorLink"
                         android:id="@+id/detail_address"
                         tools:text="Address" />
 
