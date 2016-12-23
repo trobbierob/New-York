@@ -136,5 +136,13 @@
     <string name="dessert_description">Treat Yourself</string>
     <string name="about_us">About Us</string>
     <string name="contact_info">Contact Info</string>
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+    <string name="number">Number</string>
+    <string name="address">Address</string>
+    <string name="about">About</string>
+    <string name="background">Background</string>
+    <string name="telephone">tel:</string>
+    <string name="google_maps">http://maps.google.co.in/maps?q=</string>
 
 </resources>

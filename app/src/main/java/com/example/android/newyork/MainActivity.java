@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Find the View that shows the first card category
-        CardView cardView1 = (CardView) findViewById(R.id.dessert);
+        CardView dessertView = (CardView) findViewById(R.id.dessert);
         // Set a clickListener on Dessert card
-        cardView1.setOnClickListener(new View.OnClickListener() {
+        dessertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent cardViewIntent = new Intent(MainActivity.this, DessertActivity.class);
@@ -67,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        CardView cardView2 = (CardView) findViewById(R.id.museum);
+        CardView museumView = (CardView) findViewById(R.id.museum);
         // Set a clickListener on Museum card
-        cardView2.setOnClickListener(new View.OnClickListener() {
+        museumView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent cardViewIntent = new Intent(MainActivity.this, MuseumActivity.class);
@@ -77,9 +77,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        CardView cardView3 = (CardView) findViewById(R.id.pizza);
+        CardView pizzaView = (CardView) findViewById(R.id.pizza);
         // Set a clickListener on Pizza card
-        cardView3.setOnClickListener(new View.OnClickListener() {
+        pizzaView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent cardViewIntent = new Intent(MainActivity.this, PizzaActivity.class);
@@ -87,9 +87,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        CardView cardView4 = (CardView) findViewById(R.id.coding);
+        CardView codingView = (CardView) findViewById(R.id.coding);
         // Set a clickListener on Coding card
-        cardView4.setOnClickListener(new View.OnClickListener() {
+        codingView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent cardViewIntent = new Intent(MainActivity.this, CodingActivity.class);

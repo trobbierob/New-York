@@ -7,7 +7,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -49,64 +48,62 @@ public class CodingActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
-                Toast.makeText(CodingActivity.this, "location is: " + position, Toast.LENGTH_SHORT).show();
-
                 int companyBackground;
 
                 switch (position) {
                     case 0:
                         Intent nycdaIntent = new Intent(CodingActivity.this, LocationDetailActivity.class);
-                        nycdaIntent.putExtra("Name", getString(R.string.nycda_name));
-                        nycdaIntent.putExtra("Title", getString(R.string.nycda_title_name));
-                        nycdaIntent.putExtra("Number", getString(R.string.nycda_number));
-                        nycdaIntent.putExtra("Address", getString(R.string.nycda_address));
-                        nycdaIntent.putExtra("About", getString(R.string.nycda_description));
+                        nycdaIntent.putExtra(getString(R.string.name), getString(R.string.nycda_name));
+                        nycdaIntent.putExtra(getString(R.string.title), getString(R.string.nycda_title_name));
+                        nycdaIntent.putExtra(getString(R.string.number), getString(R.string.nycda_number));
+                        nycdaIntent.putExtra(getString(R.string.address), getString(R.string.nycda_address));
+                        nycdaIntent.putExtra(getString(R.string.about), getString(R.string.nycda_description));
                         companyBackground = R.drawable.c_codedesignacademy;
-                        nycdaIntent.putExtra("Background", companyBackground);
+                        nycdaIntent.putExtra(getString(R.string.background), companyBackground);
                         startActivity(nycdaIntent);
                         break;
                     case 1:
                         Intent flatironIntent = new Intent(CodingActivity.this, LocationDetailActivity.class);
-                        flatironIntent.putExtra("Name", getString(R.string.flatiron_name));
-                        flatironIntent.putExtra("Title", getString(R.string.flatiron_title_name));
-                        flatironIntent.putExtra("Number", getString(R.string.flatiron_number));
-                        flatironIntent.putExtra("Address", getString(R.string.flatiron_address));
-                        flatironIntent.putExtra("About", getString(R.string.flatiron_description));
+                        flatironIntent.putExtra(getString(R.string.name), getString(R.string.flatiron_name));
+                        flatironIntent.putExtra(getString(R.string.title), getString(R.string.flatiron_title_name));
+                        flatironIntent.putExtra(getString(R.string.number), getString(R.string.flatiron_number));
+                        flatironIntent.putExtra(getString(R.string.address), getString(R.string.flatiron_address));
+                        flatironIntent.putExtra(getString(R.string.about), getString(R.string.flatiron_description));
                         companyBackground = R.drawable.c_flatiron;
-                        flatironIntent.putExtra("Background", companyBackground);
+                        flatironIntent.putExtra(getString(R.string.background), companyBackground);
                         startActivity(flatironIntent);
                         break;
                     case 2:
                         Intent vWCIntent = new Intent(CodingActivity.this, LocationDetailActivity.class);
-                        vWCIntent.putExtra("Name", getString(R.string.vwc_name));
-                        vWCIntent.putExtra("Title", getString(R.string.vwc_title_name));
-                        vWCIntent.putExtra("Number", getString(R.string.vwc_number));
-                        vWCIntent.putExtra("Address", getString(R.string.vwc_address));
-                        vWCIntent.putExtra("About", getString(R.string.vwc_description));
+                        vWCIntent.putExtra(getString(R.string.name), getString(R.string.vwc_name));
+                        vWCIntent.putExtra(getString(R.string.title), getString(R.string.vwc_title_name));
+                        vWCIntent.putExtra(getString(R.string.number), getString(R.string.vwc_number));
+                        vWCIntent.putExtra(getString(R.string.address), getString(R.string.vwc_address));
+                        vWCIntent.putExtra(getString(R.string.about), getString(R.string.vwc_description));
                         companyBackground = R.drawable.c_vetswhocode;
-                        vWCIntent.putExtra("Background", companyBackground);
+                        vWCIntent.putExtra(getString(R.string.background), companyBackground);
                         startActivity(vWCIntent);
                         break;
                     case 3:
                         Intent gAIntent = new Intent(CodingActivity.this, LocationDetailActivity.class);
-                        gAIntent.putExtra("Name", getString(R.string.ga_name));
-                        gAIntent.putExtra("Title", getString(R.string.ga_title_name));
-                        gAIntent.putExtra("Number", getString(R.string.ga_number));
-                        gAIntent.putExtra("Address", getString(R.string.ga_address));
-                        gAIntent.putExtra("About", getString(R.string.ga_description));
+                        gAIntent.putExtra(getString(R.string.name), getString(R.string.ga_name));
+                        gAIntent.putExtra(getString(R.string.title), getString(R.string.ga_title_name));
+                        gAIntent.putExtra(getString(R.string.number), getString(R.string.ga_number));
+                        gAIntent.putExtra(getString(R.string.address), getString(R.string.ga_address));
+                        gAIntent.putExtra(getString(R.string.about), getString(R.string.ga_description));
                         companyBackground = R.drawable.c_generalassembly;
-                        gAIntent.putExtra("Background", companyBackground);
+                        gAIntent.putExtra(getString(R.string.background), companyBackground);
                         startActivity(gAIntent);
                         break;
                     case 4:
                         Intent codecademyIntent = new Intent(CodingActivity.this, LocationDetailActivity.class);
-                        codecademyIntent.putExtra("Name", getString(R.string.codecademy_name));
-                        codecademyIntent.putExtra("Title", getString(R.string.codecademy_title_name));
-                        codecademyIntent.putExtra("Number", getString(R.string.codecademy_number));
-                        codecademyIntent.putExtra("Address", getString(R.string.codecademy_address));
-                        codecademyIntent.putExtra("About", getString(R.string.codecademy_description));
+                        codecademyIntent.putExtra(getString(R.string.name), getString(R.string.codecademy_name));
+                        codecademyIntent.putExtra(getString(R.string.title), getString(R.string.codecademy_title_name));
+                        codecademyIntent.putExtra(getString(R.string.number), getString(R.string.codecademy_number));
+                        codecademyIntent.putExtra(getString(R.string.address), getString(R.string.codecademy_address));
+                        codecademyIntent.putExtra(getString(R.string.about), getString(R.string.codecademy_description));
                         companyBackground = R.drawable.c_codecademy;
-                        codecademyIntent.putExtra("Background", companyBackground);
+                        codecademyIntent.putExtra(getString(R.string.background), companyBackground);
                         startActivity(codecademyIntent);
                         break;
                     default:

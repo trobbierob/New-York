@@ -33,7 +33,7 @@ public class LocationDetailActivity extends AppCompatActivity{
 
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle(extras.getString("Title"));
+        collapsingToolbar.setTitle(extras.getString(getString(R.string.title)));
 
         //Set a listener to know the current visible state of CollapseLayout
         AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
@@ -57,19 +57,19 @@ public class LocationDetailActivity extends AppCompatActivity{
         });
 
         TextView detailName = (TextView) findViewById(R.id.detail_name);
-        detailName.setText(extras.getString("Name"));
+        detailName.setText(extras.getString(getString(R.string.name)));
 
         /*
         This will allow the user to call the location from within the detail
          */
         final TextView detailNumber = (TextView) findViewById(R.id.detail_number);
-        detailNumber.setText(extras.getString("Number"));
-        final String companyNumber  = extras.getString("Number");
+        detailNumber.setText(extras.getString(getString(R.string.number)));
+        final String companyNumber  = extras.getString(getString(R.string.number));
         detailNumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
-                phoneIntent.setData(Uri.parse("tel:" + companyNumber));
+                phoneIntent.setData(Uri.parse(getString(R.string.telephone) + companyNumber));
 
                 if (phoneIntent.resolveActivity(getPackageManager()) != null) {
                     startActivity(phoneIntent);
@@ -81,21 +81,21 @@ public class LocationDetailActivity extends AppCompatActivity{
         This will allow the user to find the location on a map within the detail
          */
         TextView detailAddress = (TextView) findViewById(R.id.detail_address);
-        detailAddress.setText(extras.getString("Address"));
-        final String address  = extras.getString("Address");
+        detailAddress.setText(extras.getString(getString(R.string.address)));
+        final String address  = extras.getString(getString(R.string.address));
         detailAddress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String mapLocation = "http://maps.google.co.in/maps?q=" + address;
+                String mapLocation = getString(R.string.google_maps) + address;
                 Intent addressIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(mapLocation));
                 startActivity(addressIntent);
             }
         });
 
         TextView detailAbout = (TextView) findViewById(R.id.detail_about);
-        detailAbout.setText(extras.getString("About"));
+        detailAbout.setText(extras.getString(getString(R.string.about)));
 
         final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
-        Glide.with(this).load(extras.getInt("Background", 0)).into(imageView);
+        Glide.with(this).load(extras.getInt(getString(R.string.background), 0)).into(imageView);
     }
 }

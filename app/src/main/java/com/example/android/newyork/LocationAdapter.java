@@ -43,8 +43,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         companyAddress.setText(currentLocation.getCompanyAddress());
 
-
-
         ImageView locationImageView = (ImageView) listItemView.findViewById(R.id.company_image_view);
 
         locationImageView.setImageResource(currentLocation.getImageResourceId());
