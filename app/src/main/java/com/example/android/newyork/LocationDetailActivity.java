@@ -3,7 +3,9 @@ package com.example.android.newyork;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -32,6 +34,27 @@ public class LocationDetailActivity extends AppCompatActivity{
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(extras.getString("Title"));
+
+        //Set a listener to know the current visible state of CollapseLayout
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            int scrollRange = -1;
+
+            @Override
+            public void onOffsetChanged(final AppBarLayout appBarLayout, int verticalOffset) {
+                //Initialize the size of the scroll
+                if (scrollRange == -1) {
+                    scrollRange = appBarLayout.getTotalScrollRange();
+                }
+                //Check if the view is collapsed
+                if (scrollRange + verticalOffset == 0) {
+                    toolbar.setBackgroundColor(ContextCompat.getColor(LocationDetailActivity.this, R.color.colorStart));
+                }else{
+                    toolbar.setBackgroundColor(ContextCompat.getColor(LocationDetailActivity.this, R.color.colorEnd));
+                }
+            }
+        });
 
         TextView detailName = (TextView) findViewById(R.id.detail_name);
         detailName.setText(extras.getString("Name"));
