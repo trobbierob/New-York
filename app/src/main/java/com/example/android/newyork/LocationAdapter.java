@@ -32,21 +32,16 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         Location currentLocation = getItem(position);
 
         TextView companyName = (TextView) listItemView.findViewById(R.id.company_name_text_view);
-
         companyName.setText(currentLocation.getCompanyName());
 
         TextView companyNumber = (TextView) listItemView.findViewById(R.id.company_number_text_view);
-
         companyNumber.setText(currentLocation.getCompanyNumber());
 
         TextView companyAddress = (TextView) listItemView.findViewById(R.id.company_address);
-
         companyAddress.setText(currentLocation.getCompanyAddress());
 
         ImageView locationImageView = (ImageView) listItemView.findViewById(R.id.company_image_view);
-
         locationImageView.setImageResource(currentLocation.getImageResourceId());
-
         locationImageView.setVisibility(View.VISIBLE);
 
         return listItemView;
